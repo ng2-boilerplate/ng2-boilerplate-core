@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"declaration": false,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"noImplicitAny": true,
+		"mapRoot": "./",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"target": "es5",
+		"typeRoots": [
+			"./@custom-types",
+			"./node_modules/@types"
+		],
+		"types": [
+			"core-js",
+			"jasmine",
+			"requirejs",
+			"chance",
+			"automapper-ts"
+		]
+	}
+}
